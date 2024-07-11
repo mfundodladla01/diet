@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fathima khan</title>
+    <script src="https://kit.fontawesome.com/b99433b163.js" crossorigin="anonymous"></script>
+    <style>
+        /* Reset default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #D2B48C;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 15px;
+        }
+        nav  a:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+   
+}
+
+        .banner {
+            
+            background-image: url(imgs/dan-gold-4_jhDO54BYg-unsplash.jpg);
+            background-size: cover;
+            text-align: center;
+            padding: 100px 0;
+            color: white;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .banner p{
+            max-width: 400px; /* Maximum width of the content */
+            padding: 20px;
+            font-size: 20px;
+            color:white;
+            text-align: center; /* Center align text */
+            margin: 0 auto; /
+            
+           
+        
+        }
+        
+        .cta-button {
+    text-decoration: none; /* Removes underline */
+    color: #fff; /* Sets text color to white */
+    background-color: #D2B48C;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #000; /* Darkens background color on hover */
+}
+
+/* Optional: Remove underline and inherit color for links within .cta-button */
+.cta-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+     
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #D2B48C;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Add more styles for other sections as needed */
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+        }
+        .social-icons {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    
+     /* Center-align list items */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+.contact{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:40px;
+    background-color: #D2B48C;
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var contactLink = document.querySelector('a[href="#contact"]');
+            if(contactLink) {
+                contactLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var targetSection = document.getElementById('contact');
+                    if(targetSection) {
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            }
+        });
+    </script>
+    
+</head>
+<body>
+    <header>
+        <h1>Truly Local Nutrition</h1>
+        <nav>
+            <a href="2nd.html">Welcome</a>
+            <a href="book session.html">Book Session</a>
+            <a href="tell me your problem.html">Tell Me Your Problem</a>
+            <a href="blog.html">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="banner">
+        <h1>Hey! I'm Fathima Khan</h1>
+        <div class="containerp">   <p>Registered Dietician who helps women and men who struggle with chronic dieting, 
+            disordered eating, and body image concerns make peace with food and their bodies.</p>
+        <button class="cta-button"> <a href="book session.html">Book Session</button></a>
+    </div></div>
+
+    <div class="content">
+       
+                 <!-- Add more content sections here -->
+   
+    <div class="contact ">
+      <h3>Contact Me</h3> 
+        <p>Email: khan.dietician@gmail.com</p>
+        <p>Phone: (+27)81 249 6625 </p>
+        <p>Location: 70 Montague Street</p>
+    
+        <ul class="social-icons">
+            <ul class="social-icons">
+                <li>     <i class="fa-brands fa-facebook fa-xl"></i></li>
+                       <li><i class="fa-brands fa-square-x-twitter fa-xl"></i></li>
+                       <li><i class="fa-brands fa-square-instagram fa-xl"></i></li>
+            </div> </div>
+</body>
+</html>

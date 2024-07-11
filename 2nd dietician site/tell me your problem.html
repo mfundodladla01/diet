@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me Your Problem | Dietitian Services</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="https://kit.fontawesome.com/b99433b163.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Tell Me Your Problem</h1>
+        <p>Please provide details about your health concerns. I'm here to help!</p>
+        <nav>
+            <ul>
+                <li><a href="2nd.html">Welcome</a></li>
+                <li><a href="book session.html">Book Session</a></li>
+                <li><a href="tell me your problem.html">Tell Me Your Problem</a></li>
+                
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form action="https://script.google.com/macros/s/AKfycbzCRkEbj7CjMHp36A4A0PUrhWjRuUbrlJL8DF9qXgoKDStzSKL4QSK-MLpaeZAkZPhR_A/exec
+        " method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="problem">Describe Your Problem:</label>
+            <textarea id="problem" name="problem" rows="4" required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+        
+    </main>
+
+    <div class="contact ">
+        <h3>Contact Me</h3> 
+          <p>Email: khan.dietician@gmail.com</p>
+          <p>Phone: (+27)81 249 6625 </p>
+          <p>Location: 70 Montague Street</p>
+      
+          <ul class="social-icons">
+            <li>     <i class="fa-brands fa-facebook fa-xl"></i></li>
+                   <li><i class="fa-brands fa-square-x-twitter fa-xl"></i></li>
+                   <li><i class="fa-brands fa-square-instagram fa-xl"></i></li>
+          </div>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(imgs/rezel-apacionado-MZfS19xrrz0-unsplash.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #D2B48c; /* Changed header background color */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+header p{
+    color: white;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    border-radius: 5px;
+   
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #D2B48c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #D2B48c;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.social-icons {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    
+     /* Center-align list items */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+}
+.contact{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:40px;
+    background-color: #D2B48C;
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var contactLink = document.querySelector('a[href="#contact"]');
+        if(contactLink) {
+            contactLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetSection = document.getElementById('contact');
+                if(targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+    });
+</script>

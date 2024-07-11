@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATHIMA-blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b99433b163.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>FATHIMA</h1>
+        <nav>
+            <ul>
+                <li><a href="2nd.html">Welcome</a></li>
+                <li><a href="book session.html">Book Session</a></li>
+                <li><a href="tell me your problem.html">Tell Me Your Problem</a></li>
+                
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="blog-posts">
+    <div class="container">
+        <h2>Latest Articles</h2>
+        <div class="blog-post">
+            <h3>Top 5 Foods for Boosting Immunity</h3>
+            <p>Informative content about foods that can enhance immune function, including tips for incorporating them into daily meals.</p>
+            <a href="post1.html" class="btn">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Healthy Breakfast Ideas Under 300 Calories</h3>
+            <p>Practical breakfast recipes and ideas that are nutritious and calorie-conscious, suitable for individuals aiming for weight management.</p>
+            <a href="post2.html" class="btn">Read More</a>
+        </div>
+        <div class="contact ">
+            <h3>Contact Me</h3> 
+              <p>Email: khan.dietician@gmail.com</p>
+              <p>Phone: (+27)81 249 6625 </p>
+              <p>Location: 70 Montague Street</p>
+          
+              <ul class="social-icons">
+           <li>     <i class="fa-brands fa-facebook fa-xl"></i></li>
+                  <li><i class="fa-brands fa-square-x-twitter fa-xl"></i></li>
+                  <li><i class="fa-brands fa-square-instagram fa-xl"></i></li>
+                  
+                  </div> <!-- More blog posts -->
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 website by Mfundo Dladla. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+<style>body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #D2B48c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    border-radius: 5px;
+   
+}
+
+
+.blog-posts {
+    padding: 50px 0;
+    width: 1400px; /* Adjust the width of the container */
+    height: 800px; /* Adjust the height of the container */
+    background-image: url('imgs/davies-designs-studio-HJa6GKpdHEA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.blog-posts h2{
+    text-align: right;
+}
+
+.blog-post {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.blog-post h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #D2B48c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+.social-icons {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    
+     /* Center-align list items */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+}
+.contact{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:40px;
+    background-color: #D2B48C;
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var contactLink = document.querySelector('a[href="#contact"]');
+        if(contactLink) {
+            contactLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetSection = document.getElementById('contact');
+                if(targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+    });
+</script>

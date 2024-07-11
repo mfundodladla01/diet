@@ -1,0 +1,5 @@
+google sheets url
+https://script.google.com/macros/s/AKfycbzCRkEbj7CjMHp36A4A0PUrhWjRuUbrlJL8DF9qXgoKDStzSKL4QSK-MLpaeZAkZPhR_A/exec
+
+deployment id
+AKfycbzCRkEbj7CjMHp36A4A0PUrhWjRuUbrlJL8DF9qXgoKDStzSKL4QSK-MLpaeZAkZPhR_A

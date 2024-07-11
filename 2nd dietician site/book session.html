@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Booking Page</title>
+    <!-- Include CSS styles for layout and form styling -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b99433b163.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Truly Local Nutrition</h1>
+        <nav>
+            <a href="2nd.html">Welcome</a>
+            <a href="book session.html">Book Session</a>
+            <a href="tell me your problem.html">Tell Me Your Problem</a>
+            <a href="blog.html">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="back">
+    <div class="container">
+        <h1><div class="bold"> Book a Session with</div> <div class="fathima">fathima</div></h1>
+        <form action="https://script.google.com/macros/s/AKfycbxeCZCIAEg1LKzaTIefCRnK1RTs5n5-BLPYuKlejwQKNnLiI6fGNqqP9n0FEz6Rkvn-/exec" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+        
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="Service 1">Service 1</option>
+                <option value="Weight Management Programs">Weight Management Programs</option>
+                <option value="Nutritional Assessment">Nutritional Assessment</option>
+                <option value="Personalized Meal Planning">Personalized Meal Planning</option>
+            </select>
+        
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Your Phone:</label>
+            <input type="tel" id="phone" name="phone">
+        
+            <label for="message">Additional Information:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        
+            <button type="submit">Book Now</button>
+        </form>
+        
+    </div>
+    </div>
+ <div class="home"><button type="HOME"> <a href="2nd.html" >HOME</a></button></div>
+</body>
+<div class="contact ">
+    <h3>Contact Me</h3>
+    <p>Email: khan.dietician@gmail.com</p>
+    <p>Phone: (+27)81 249 6625 </p>
+    <p>Location: 70 Montague Street</p>
+
+    <ul class="social-icons">
+        <ul class="social-icons">
+            <li>     <i class="fa-brands fa-facebook fa-xl"></i></li>
+                   <li><i class="fa-brands fa-square-x-twitter fa-xl"></i></li>
+                   <li><i class="fa-brands fa-square-instagram fa-xl"></i></li>
+        </div>
+</html>
+
+<style>
+.back{
+    background-image: url(imgs/odiseo-castrejon-1CsaVdwfIew-unsplash.jpg);
+    background-size: cover;
+   
+}
+header {
+            background-color: #D2B48C;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 15px;
+        }
+        nav  a:hover {
+    background-color: orange;
+    border-radius: 5px;
+   
+}
+.social-icons {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    
+     /* Center-align list items */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+}
+.social-icons img {
+   
+    width: 40px;
+    height: 40px;
+}
+
+.insta{
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+.social-icons {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    
+     /* Center-align list items */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between items */
+}
+.contact{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D2B48C;
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+.bold{
+    font-weight: bolder;
+}
+.fathima{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: 0 115px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.home {
+    text-align: center;
+    padding: 10px 20px;
+    background-color:#D2B48C ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+   
+}
+
+
+/* Optional: Remove underline and inherit color for links within .cta-button */
+.home a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #D2B48C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var contactLink = document.querySelector('a[href="#contact"]');
+        if(contactLink) {
+            contactLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetSection = document.getElementById('contact');
+                if(targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+    });
+</script>
